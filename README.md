@@ -1,13 +1,17 @@
-Segmentação Automática de Vasos 
-Retinianos em Imagens de Fundo de Olho
-Processamento de Imagem
-Alunos: Luís Gonçalves PG54011; Sandra Ferreira PG54221 Docente: Carlos Silva
-Abstrato
+# Segmentação Automática de Vasos 
+
+## Retinianos em Imagens de Fundo de Olho
+
+## Alunos: Luís Gonçalves PG54011; Sandra Ferreira PG54221 Docente: Carlos Silva
+
+## Abstrato
 Neste projeto criou-se um método adaptado para a segmentação de vasos da retina, 
 fornecendo apenas a imagem do fundo do olho a segmentar. Para tal, teve-se por 
 base, o método descrito por S. Chaudhuri em [1], no qual alterou-se o tratamento de 
 bordas adaptado para cada imagem a segmentar
-I. Introdução
+
+## I. Introdução
+
 A segmentação autónoma de vasos da retina permite a análise e deteção das variações 
 apresentadas nessa zona, auxiliando assim o diagnostico de diferentes patologias que 
 afetam a retina e os seus vasos. Para tal, ao longo deste projeto serão utilizadas diferentes 
@@ -19,7 +23,9 @@ Para testar o funcionamento do método criado, foi utilizado o Dataset, DRIVE,
 composto por 40 conjuntos de imagens, que são compostos por imagens digitais da zona 
 ocular, designada por fundus, onde está presente a retina, o disco ótico e a mácula, 
 imagens das máscaras da zona fundus e imagens para os vasos detetados.
-II. Métodos
+
+## II. Métodos
+
 No presente trabalho, foi desenvolvido e implementado um algoritmo com o objetivo 
 de segmentar e detetar vasos retinianos. Estes passos são importantes uma vez que levam 
 a uma melhoria na qualidade da imagem dos vasos, que por sua vez auxilia no diagnóstico 
@@ -168,7 +174,9 @@ Por fim a imagem é preenchida dando origem à máscara através de duas funçõ
 preencher_borda_com_branco e ultimo, onde a primeira retoma uma imagem preenchida 
 com pixels brancos e a segunda retoma a máscara final após alguns processamento, 
 nomeadamente erosão da imagem.
-IV. Resultados
+
+## IV. Resultados
+
 Na implantação do algoritmo utilizou-se como foi supracitado, o dataset fornecido, 
 para exemplo recorreu-se à primeira imagem fundus, como pode ser observado no Anexo 
 C1, no qual se aplicou o matched filter referido anteriormente, com os valores de σ=2 e 
@@ -220,7 +228,8 @@ método proposto, isto para cada imagem.
 Outro tópico importante de fazer referência é o facto de que tal como a máscara do 
 fundus da retina, a máscara dos vasos retinais podem também não ter uma alta qualidade, 
 uma vez que pertencem ao mesmo dataset.
-V.Conclusão
+
+## V.Conclusão
 Concluindo, neste projeto foi criado um sistema autónomo capaz de segmentar vasos 
 através de uma imagem da retina fornecida.
 Atendendo aos objetivos propostos para este trabalho, este foram cumpridos, uma vez 
@@ -231,7 +240,8 @@ zonas indesejadas como o disco ótico e lesões, bem como uma melhor deteção d
 mais finos.
 Em suma, este projeto possibilitou processamento de uma imagem retiniana e a 
 segmentação dos seus vasos.
-VI. Bibliografia
+
+## VI. Bibliografia
 [1] S. Chaudhuri, S. Chatterjee, N. Katz, M. Nelson and M. Goldbaum, "Detection of 
 blood vessels in retinal images using two-dimensional matched filters," in IEEE 
 Transactions on Medical Imaging, vol. 8, no. 3, pp. 263-269, Sep 1989
